@@ -1,0 +1,43 @@
+/* 基本重置 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* 固定 sidebar */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* sidebar 的列表樣式 */
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 主內容推到 sidebar 右側 */
+  .main-content {
+    margin-left: 240px; /* sidebar 寬度 + 一些空間 */
+    padding: 20px;
+  }
+  
